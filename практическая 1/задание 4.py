@@ -1,8 +1,0 @@
-seconds=int(input())
-d=seconds // (60*60*24)
-seconds=seconds % (60*60*24)
-h=seconds // (60*60)
-seconds=seconds % (60*60)
-m=seconds // (60)
-seconds=seconds % (60)
-print('Дней:', d, 'Часов:', h, 'Минут:', m, 'Секунд:', seconds)
